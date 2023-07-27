@@ -1,0 +1,54 @@
+@font-face {
+  font-family: 'icons';
+  src:  url('fonts/icons.eot?9aic6c');
+  src:  url('fonts/icons.eot?9aic6c#iefix') format('embedded-opentype'),
+    url('fonts/icons.ttf?9aic6c') format('truetype'),
+    url('fonts/icons.woff?9aic6c') format('woff'),
+    url('fonts/icons.svg?9aic6c#icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="_icon-"], [class*=" _icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icons' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+._icon-arrow_downward_24px:before {
+  content: "\e900";
+}
+._icon-instagram:before {
+  content: "\e901";
+}
+._icon-play:before {
+  content: "\e902";
+}
+._icon-service1:before {
+  content: "\e903";
+}
+._icon-service2:before {
+  content: "\e904";
+}
+._icon-service3:before {
+  content: "\e905";
+}
+._icon-service4:before {
+  content: "\e906";
+}
+._icon-Stroke:before {
+  content: "\e907";
+}
+._icon-twitter:before {
+  content: "\e908";
+}
